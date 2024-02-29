@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Graphik';
+    src: local('Graphik Medium'), local('Graphik-Medium'),
+        url('fonts/Graphik-Medium.woff2') format('woff2'),
+        url('fonts/Graphik-Medium.woff') format('woff'),
+        url('fonts/Graphik-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: local('Graphik Regular'), local('Graphik-Regular'),
+        url('fonts/Graphik-Regular.woff2') format('woff2'),
+        url('fonts/Graphik-Regular.woff') format('woff'),
+        url('fonts/Graphik-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    color: #fff;
+    font-family: 'Graphik';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    font-weight: 400;
+    font-size: 16px;
+    outline: none;
+    text-decoration: none;
+}
+
+button {
+    padding: 8px;
+    border: 2px #fff solid;
+    background: transparent;
+    cursor: pointer;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #181818;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px red solid; */
+}
+
+header a {
+    padding: 10px;
+    margin: 0px 31px 0px 31px;
+}
+
+.logo {
+    padding: 10px;
+    margin: 20px 0px 21px 30px;
+}
+
+.center-links {
+    margin: 37.5px 173.5px 37.5px 116.5px;
+}
+
+
+
+.login-button button {
+    margin: 33px 34px 39px 0px;
+    border: 2px #fff solid;
+    padding: 13.5px 46px 13.5px 46px;
+}

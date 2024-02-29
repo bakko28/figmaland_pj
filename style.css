@@ -142,7 +142,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     margin: 107px 274px 107px 274px;
-    border: 2px #fff solid;
+    /* border: 2px #fff solid; */
 }
 
 .footer-left-info {
@@ -196,35 +196,34 @@ footer {
 .footer-right-info {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
-    border: 2px red solid;
+    /* border: 2px red solid; */
 }
 
 .address, .number, .social {
     display: flex;
-    width: 300px;
+    padding: 8px;
     justify-content: center;
     align-items: center;
 }
 
-.address, .number, .social a{
-    text-align: center;
-    margin: 11px 8px 11px 8px;
+.address, .number, .social, a{
+    padding: 8px;
 }
 
-.address, .number, .social i {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 46px;
-    height: 46px;
-    padding: 4px;
+.address, .number, .social, i{
+    padding: 8px;
+}
+
+.social {
+    padding: 8px 0px 0px 0px;
 }
 
 .fa-location-dot, .fa-mobile-screen-button, .fa-twitter, .fa-facebook, .fa-linkedin {
     font-size: 24px;
+    padding: 0;
 }
+
 
 

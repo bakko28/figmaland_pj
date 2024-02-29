@@ -34,13 +34,16 @@ a {
 }
 
 button {
-    padding: 8px;
-    border: 2px #fff solid;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px;
+    /* border: 2px #fff solid; */
     background: transparent;
     cursor: pointer;
 }
 
 body {
+    overflow-x: hidden;
     display: flex;
     width: 100vw;
     height: auto;
@@ -75,6 +78,153 @@ header a {
 
 .login-button button {
     margin: 33px 34px 39px 0px;
-    border: 2px #fff solid;
+    border: 1px #fff solid;
     padding: 13.5px 46px 13.5px 46px;
 }
+
+
+.work-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* border: 2px #fff solid; */
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* border: 2px #fff solid; */
+}
+
+.btnbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px red solid; */
+    margin: 35px 560px 35px 560px;
+}
+
+.textbox .heading {
+    padding: 10px;
+    margin: 50px 400px 17px 400px;
+    font-weight: 500;
+    font-size: 80px;
+}
+
+.textbox .tittle {
+    padding: 10px;
+    margin: 0px 450px 50px 450px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.btnbox button {
+    padding: 20px 40px 20px 40px;
+}
+
+.leftbtn {
+    background-color: #4452FE;
+    border: none;
+}
+
+.rightbtn {
+    border: 1px #fff solid;
+    margin-left: 35px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 107px 274px 107px 274px;
+    border: 2px #fff solid;
+}
+
+.footer-left-info {
+    display: flex;
+    margin: 0px 199px 0px 0px;
+}
+
+.footer-left-info p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-left-info .links a {
+    margin: 0px 0px 19px 0px;
+}
+
+.fingertype-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 75px 0px 0px;
+}
+
+.fingertype-box p {
+    margin: 0px 22px 40px 0px;
+}
+
+.resources-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 75px 0px 0px;
+}
+
+.resources-box p {
+    margin: 0px 20px 40px 0px;
+}
+
+.about-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-box p {
+    margin: 0px 62px 40px 0px;
+}
+
+.footer-right-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px red solid;
+}
+
+.address, .number, .social {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.address, .number, .social a{
+    text-align: center;
+    margin: 11px 8px 11px 8px;
+}
+
+.address, .number, .social i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 46px;
+    height: 46px;
+    padding: 4px;
+}
+
+.fa-location-dot, .fa-mobile-screen-button, .fa-twitter, .fa-facebook, .fa-linkedin {
+    font-size: 24px;
+}
+
+

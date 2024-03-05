@@ -36,8 +36,8 @@ a {
 button {
     font-size: 17px;
     font-weight: 500;
-    padding: 10px;
-    /* border: 2px #fff solid; */
+    padding: 13.5px 46px 13.5px 46px;
+    border: 1px #fff solid;
     background: transparent;
     cursor: pointer;
 }
@@ -78,8 +78,6 @@ header a {
 
 .login-button button {
     margin: 33px 34px 39px 0px;
-    border: 1px #fff solid;
-    padding: 13.5px 46px 13.5px 46px;
 }
 
 
@@ -273,6 +271,7 @@ footer {
 
 .features-box {
     margin-top: 100px;
+    padding: 50px 0px 50px 0px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -345,14 +344,12 @@ footer {
     color: #fff;
     border: none;
     background-color: #4452FE;
-    font-size: 17px;
-    font-weight: 500;
-    padding: 13.5px 46px 13.5px 46px;
 }
 
 .contents-box {
     display: flex;
     margin-top: 100px;
+    padding: 50px 0px 50px 0px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -422,7 +419,8 @@ footer {
 }
 
 .galery-box {
-    margin-top: 100px;
+    margin-top: 100px; 
+    padding: 50px 0px 50px 0px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -434,7 +432,7 @@ footer {
 .textbox-galery {
     text-align: center;
     /* border: 2px green solid; */
-    margin: 0px 0px 80px 0px;
+    margin: 0px 0px 44px 0px;
 }
 
 .textbox-galery .heading-galery {
@@ -452,9 +450,174 @@ footer {
 
 .infobox-galery {
     display: flex;
-    border: 2px #fff solid;
+    flex-direction: column;
+    /* border: 2px #fff solid; */
     align-items: center;
 }
+
+.infobox-galery img {
+    height: 285px;
+}
+
+.infobox-galery button {
+    margin: 44px 0px 0px 0px;
+    padding: 13.5px 40px 13.5px 40px;
+}
+
+.partners-box {
+    margin-top: 100px;
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px red solid; */
+    width: 100%;
+}
+
+.textbox-partners {
+    text-align: center;
+    /* border: 2px green solid; */
+}
+
+.textbox-partners .heading-partners {
+    margin: 0px 0px 27px 0px;
+    font-weight: 400;
+    font-size: 52px;
+}
+
+.textbox-partners .title-partners {
+    margin: 0px;
+    font-weight: 400;
+    width: 580px;
+    font-size: 20px;
+}
+
+.infobox-partners {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px #fff solid; */
+    align-items: center;
+}
+
+.link-partners {
+    display: flex;
+    margin: 50px 0px 50px 0px;
+}
+
+.link-partners img {
+    height: 60px;
+    margin-right: 44px;
+    padding: 5px;
+}
+
+
+.testimonials-box {
+    margin-top: 100px;
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px red solid; */
+    width: 100%;
+}
+
+.textbox-testimonials {
+    text-align: center;
+    /* border: 2px green solid; */
+}
+
+.textbox-testimonials .heading-testimonials {
+    margin: 0px 0px 27px 0px;
+    font-weight: 400;
+    font-size: 52px;
+}
+
+.infobox-testimonials {
+    display: flex;
+    margin: 50px 0px 0px 0px;
+    /* border: 2px #fff solid; */
+    align-items: start;
+    padding: 0px;
+}
+
+.leftcard-testimonials, .rightcard-testimonials {
+    margin: 0px 11.5px 0px 11.5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials-card {
+    margin: 0px 0px 20px 0px;
+    width: 430px;
+    height: auto;
+    border: 1px #fff solid;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.testimonials-card .head-info {
+    display: flex;
+    align-items: center;
+}
+
+.head-info a {
+    padding: 0px;
+}
+
+.testimonials-card .text-info p{ 
+    margin: 3px 0px 3px 13px;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.description {
+    margin-top: 30px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 200px;
+}
+
+.typefeature-box {
+    margin-top: 100px;
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px red solid; */
+    width: 100%;
+}
+
+.typefeature-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+    width: auto;
+    height: 370px;
+    background-color: #343434;
+    border-radius: 33px;
+}
+
+.textbox-typefeature {
+    margin: 0px 86px 0px 94px;
+}
+
+.typefeature-card p {
+    margin: 0px 0px 37px 0px;
+    font-size: 52px;
+    font-weight: 400;
+}
+
+.typefeature-card img {
+    margin: 6px 0px 0px 0px;
+    height: 364px;
+    border-bottom-right-radius: 30px;
+}
+
+
 
 
 
